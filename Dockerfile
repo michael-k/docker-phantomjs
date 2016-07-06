@@ -1,7 +1,7 @@
 FROM debian:jessie
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV PHANTOM_JS_VERSION 1.9.7-linux-x86_64
+ENV PHANTOM_JS_VERSION 2.1.1-linux-x86_64
 
 RUN apt-get update
 RUN apt-get install -y curl bzip2 libfreetype6 libfontconfig
